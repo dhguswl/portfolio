@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import "layout.css";
+
+header{background:#fff; height:50px;}
+header div{margin:15px 20px; justify-content:center;}
+#gnb{width:1440px; justify-content:right;}
+#gnb>li{width:auto;}
+#gnb>li>a{color:#333; text-align:right; padding-left:50px;}
+#gnb>li:last-child>a{padding-right:0;}
+#logo>a{background:url('../images/logo2.png') no-repeat;}
+header h2{width:240px;}
+header h2 a{background:url('../images/glass2.png') no-repeat center right/20px;}
+#inverstment{
+    height:385px;
+    background:url('../images/submain.jpg') no-repeat center/cover;
+}
+.tgroup{
+    margin:0;
+    padding:50px 0 0 0;
+}
+.tgroup h2,.tgroup h3{color:#fff;}
+#sub{
+    padding:50px 0;
+    justify-content:center;
+}
+#sub h2{
+    height:150px;
+    background:url('../images/intro.png') no-repeat center;
+    margin-bottom:100px;
+    text-indent:-99999999999px;
+    overflow:hidden;
+}
+#sub ul{
+    text-align:center;
+    padding-bottom:20px;
+}
+#sub ul>li:nth-child(1){
+    font-size:1.3rem;
+    font-weight:700;
+    color:#333;
+    padding-bottom:10px;
+}
+#sub ul>li:nth-child(2){
+    line-height:1.2;
+    color:#666;
+    padding-bottom:20px;
+}
+#sub ul li:nth-child(3){
+    width:40%; height:1px;
+    background:#ddd;
+    margin-left:30%;
+}
+#sub ul:nth-of-type(2) li:nth-child(3){
+    width:20%; height:1px;
+    background:#ddd;
+    margin-left:40%;
+}
+#sub ul:nth-of-type(3) li:nth-child(3){
+    width:30%; height:1px;
+    background:#ddd;
+    margin-left:35%;
+}
+#sub2{
+    padding:50px 0 100px;
+}
+#sub2 h2{
+    display: none;
+    visibility: hidden;
+    width: 0; height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+#sub2 ul{
+    width:100%; height:auto;
+    flex-wrap:wrap;
+}
+#sub2 ul li{
+    height:250px;
+    text-align:center;
+    background:orange;
+    margin-bottom:10px;
+    color:#fff;
+    line-height:1.5;
+    padding-top:100px;
+    box-sizing:border-box;
+    font-weight:300;
+    font-size:0.9rem;
+}
+#sub2 ul li span,
+#sub2 ul li:nth-child(3){
+    font-size:1.4rem;
+    font-weight:700;
+}
+#sub2 ul li:nth-child(3){padding-top:105px;}
+#sub2 ul li:nth-child(1),
+#sub2 ul li:nth-child(4){width:65%;}
+#sub2 ul li:nth-child(2),
+#sub2 ul li:nth-child(3){width:34%;}
+#sub2 ul li:nth-child(5),
+#sub2 ul li:nth-child(6){width:49.5%;}
+
+
+
+
+

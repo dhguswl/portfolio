@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import "layout.css";
+a{text-decoration:none;}
+a:link,a:visited,a:hover,a:active{color:#333; font-weight:bold;}
+#utilwrap{font-size:11px;}
+#logo{height:70px; width:360px;}
+#logo a{
+    display:block;
+    width:100%; height:100%;
+    background:url('../images/logo.jpg') no-repeat center;
+    text-indent:-999999999px;
+    overflow:hidden;
+}
+#contents>div:first-of-type{
+    text-indent:-999999999px;
+    overflow:hidden;
+    background:url(../images/visual.jpg) no-repeat center;
+}
+#contents>div:nth-of-type(3){
+    background:url('../images/main02.jpg') no-repeat center;
+    text-indent:-999999999px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+#contents>div:nth-of-type(5){
+    background:url('../images/main05.jpg') no-repeat center;
+    text-indent:-999999999px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+.inner_mbox, .inner_sbox{
+    background:url() no-repeat center;
+    text-indent:-9999999999px; 
+    overflow:hidden;
+}
+#contents>div:nth-of-type(2) .inner_sbox{
+    background-image:url('../images/main01.jpg');
+}
+#contents>div:nth-of-type(2) .m_zero{
+    background-image:url('../images/main03.jpg');
+}
+#contents>div:nth-of-type(4) .inner_mbox{
+    margin-top:10px;
+    background-image:url('../images/main04.jpg');
+}
+#contents>div:nth-of-type(4) .m_zero{
+    background-image:url('../images/site.jpg');
+}
+#contents>div:nth-of-type(6) div:nth-of-type(1){
+    margin-top:10px;
+    background-image:url('../images/main06.jpg');
+}
+#contents>div:nth-of-type(6) div:nth-of-type(2){
+    background-image:url('../images/main07.jpg');
+}
+#contents>div:nth-of-type(6) div:nth-of-type(3){
+    background-image:url('../images/main08.jpg');
+}
+#contents>div:nth-of-type(7) .inner_mbox{
+    background-image:url('../images/main09.jpg');
+}
+#contents>div:nth-of-type(7) .m_zero{
+    background-image:url('../images/main10.jpg');
+}   
+footer{
+    border-top:1px solid #ddd;
+    background:url('../images/footer_logo.jpg') no-repeat left center/250px; 
+} 
+footer address{
+    margin:20px 0 0 260px;
+}
+footer address p{
+    padding:5px 0;
+    color:#666;
+}
