@@ -318,7 +318,7 @@ footer>div>div>img{display:block; width:100%; opacity:30%;padding-top:50px;}
 		box-sizing:border-box;
 	}
 	/*m-헤더영역*/
-	header.wrap>h2{right:10px;}
+	#logo{margin:10px auto 0;}
 	/*m-비주얼영역*/
 	#visual>.wrap{padding:0;}
 	#visual figure:nth-of-type(2),
@@ -330,7 +330,7 @@ footer>div>div>img{display:block; width:100%; opacity:30%;padding-top:50px;}
 	#line_bnr>.wrap>figure{width:50%;}
 	#line_bnr>.wrap>figure img{width:100%; height:100px;}
 	#line_bnr>.wrap>figure>figcaption{display:none;}
-	#line_bnr>.wrap>hgrounp{right:10px;}
+	#line_bnr>.wrap>hgroup{right:10px;}
 	
 	/*m-갤러리영역*/
 	.gallery_list>li{
@@ -347,7 +347,7 @@ footer>div>div>img{display:block; width:100%; opacity:30%;padding-top:50px;}
 	}
 	#latest>.wrap>article:first-child>a{
 		float:left;
-		width:45%;
+		width:50%;
 	}
 	#latest>.wrap>article:first-child::after{
 	content:'';
