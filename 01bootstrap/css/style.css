@@ -463,6 +463,7 @@ a.active {
     transition: all .3s ease-in-out .3s;
     opacity: 0;
 }
+.portfolio_item .portfolio_item_hover .item_info span.team{font-size:15px;}
 .portfolio_item .portfolio_item_hover .item_info p{
     color:#fff;
     font-size:15px;
